@@ -1,22 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\.Net Project\\StudentManager\\",
+  "WorkspaceRootPath": "D:\\.Net project\\StudentManagerNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanager\\studentmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\controllers\\entitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\controllers\\entitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanager\\studentmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanager\\studentmanager\\models\\timetestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\models\\timetestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanager\\studentmanager\\controllers\\yourentitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\controllers\\yourentitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\graderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\graderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\controllers\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\controllers\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\igraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\igraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\dtos\\parentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\dtos\\parentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\parentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\parentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\iparentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\iparentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\helpers\\applicationmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\helpers\\applicationmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|d:\\.net project\\studentmanagernet\\studentmanager\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AFEA6-FFCF-4635-B4CE-4CFF4477DA3C}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,60 +113,333 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "YourEntitiesController.cs",
-              "DocumentMoniker": "D:\\.Net Project\\StudentManager\\StudentManager\\Controllers\\YourEntitiesController.cs",
-              "RelativeDocumentMoniker": "StudentManager\\Controllers\\YourEntitiesController.cs",
-              "ToolTip": "D:\\.Net Project\\StudentManager\\StudentManager\\Controllers\\YourEntitiesController.cs",
-              "RelativeToolTip": "StudentManager\\Controllers\\YourEntitiesController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwC4AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T16:36:10.692Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\.Net Project\\StudentManager\\StudentManager\\Program.cs",
-              "RelativeDocumentMoniker": "StudentManager\\Program.cs",
-              "ToolTip": "D:\\.Net Project\\StudentManager\\StudentManager\\Program.cs",
-              "RelativeToolTip": "StudentManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Title": "EntityController.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\EntityController.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Controllers\\EntityController.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\EntityController.cs",
+              "RelativeToolTip": "StudentManager\\Controllers\\EntityController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T16:27:50.121Z",
+              "WhenOpened": "2025-08-14T04:58:15.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\.Net Project\\StudentManager\\StudentManager\\appsettings.json",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\appsettings.json",
               "RelativeDocumentMoniker": "StudentManager\\appsettings.json",
-              "ToolTip": "D:\\.Net Project\\StudentManager\\StudentManager\\appsettings.json",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\appsettings.json",
               "RelativeToolTip": "StudentManager\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-12T16:25:26.771Z",
+              "WhenOpened": "2025-08-14T04:25:51.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T03:40:55.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Services\\TokenService.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Services\\TokenService.cs",
+              "RelativeToolTip": "StudentManager\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T03:37:52.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TimetestContext.cs",
-              "DocumentMoniker": "D:\\.Net Project\\StudentManager\\StudentManager\\Models\\TimetestContext.cs",
-              "RelativeDocumentMoniker": "StudentManager\\Models\\TimetestContext.cs",
-              "ToolTip": "D:\\.Net Project\\StudentManager\\StudentManager\\Models\\TimetestContext.cs",
-              "RelativeToolTip": "StudentManager\\Models\\TimetestContext.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAuwC8AAAAiAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\UserController.cs",
+              "RelativeToolTip": "StudentManager\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T09:25:30.191Z",
+              "WhenOpened": "2025-08-13T09:11:11.599Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwA8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:02:45.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Program.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Program.cs",
+              "RelativeToolTip": "StudentManager\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAwEoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:52:39.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GradeController.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\GradeController.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Controllers\\GradeController.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\GradeController.cs",
+              "RelativeToolTip": "StudentManager\\Controllers\\GradeController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwC8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:51:31.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GradeRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\GradeRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\GradeRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\GradeRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\GradeRepository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswEcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:47:38.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGradeRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\IGradeRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\IGradeRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\IGradeRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\IGradeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:46:43.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ParentDTO.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Dtos\\ParentDTO.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Dtos\\ParentDTO.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Dtos\\ParentDTO.cs",
+              "RelativeToolTip": "StudentManager\\Dtos\\ParentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:34:54.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SubjectRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\SubjectRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\SubjectRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\SubjectRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\SubjectRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T06:16:09.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\RoleRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T06:55:03.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ParentController.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\ParentController.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Controllers\\ParentController.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\ParentController.cs",
+              "RelativeToolTip": "StudentManager\\Controllers\\ParentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwEwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:05:11.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ParentRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\ParentRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\ParentRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\ParentRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\ParentRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwDEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:58:08.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Controllers\\ClassController.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "StudentManager\\Controllers\\ClassController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwC8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:14:17.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationMapper.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Helpers\\ApplicationMapper.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Helpers\\ApplicationMapper.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Helpers\\ApplicationMapper.cs",
+              "RelativeToolTip": "StudentManager\\Helpers\\ApplicationMapper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T04:18:50.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IParentRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\IParentRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\IParentRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\IParentRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\IParentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:55:12.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClassRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\ClassRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\ClassRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\ClassRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\ClassRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:08:26.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IClassRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\IClassRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\IClassRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\IClassRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\IClassRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:07:49.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "StudentManager\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:03:18.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ISubjectRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\ISubjectRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\ISubjectRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\ISubjectRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\ISubjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T06:15:14.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Repositories\\IRoleRepository.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Repositories\\IRoleRepository.cs",
+              "RelativeToolTip": "StudentManager\\Repositories\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T06:54:46.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RoleDTO.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Dtos\\RoleDTO.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Dtos\\RoleDTO.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Dtos\\RoleDTO.cs",
+              "RelativeToolTip": "StudentManager\\Dtos\\RoleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T06:55:47.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Controllers\\SubjectController.cs",
+              "ToolTip": "D:\\.Net project\\StudentManagerNet\\StudentManager\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "StudentManager\\Controllers\\SubjectController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T06:13:21.547Z",
+              "EditorCaption": ""
             }
           ]
         }

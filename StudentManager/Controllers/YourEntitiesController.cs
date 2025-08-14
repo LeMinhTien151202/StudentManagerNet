@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using StudentManager.Dtos;
 using StudentManager.Models;
 
 namespace StudentManager.Controllers
@@ -22,23 +23,44 @@ namespace StudentManager.Controllers
 
         // GET: api/YourEntities
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<YourEntity>>> GetYourEntities()
+        public async Task<ActionResult<IEnumerable<YourEntityDTO>>> GetYourEntities()
         {
-            return await _context.YourEntities.ToListAsync();
+            // Fetch all entities and map them to DTOs
+            var entities = await _context.YourEntities.ToListAsync();
+            var entityDTOs = entities.Select(e => new YourEntityDTO
+            {
+                Name = e.Name,
+                CreatedAt =  e.CreatedAt,
+                UpdatedAt = e.UpdatedAt,
+                ExpiredAt = e.ExpiredAt
+            }).ToList();
+
+            return entityDTOs;
         }
 
         // GET: api/YourEntities/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<YourEntity>> GetYourEntity(long id)
+        public async Task<ActionResult<YourEntityDTO>> GetYourEntity(long id)
         {
+            // Fetch the entity by ID and map it to a DTO
+            if (id <= 0)
+            {
+                return BadRequest("Invalid ID provided.");
+            }
             var yourEntity = await _context.YourEntities.FindAsync(id);
-
+            var yourEntityDTO = new YourEntityDTO
+            {
+                Name = yourEntity?.Name,
+                CreatedAt = yourEntity?.CreatedAt,
+                UpdatedAt = yourEntity?.UpdatedAt,
+                ExpiredAt = yourEntity?.ExpiredAt
+            };
             if (yourEntity == null)
             {
                 return NotFound();
             }
 
-            return yourEntity;
+            return yourEntityDTO;
         }
 
         // PUT: api/YourEntities/5
@@ -75,8 +97,14 @@ namespace StudentManager.Controllers
         // POST: api/YourEntities
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<YourEntity>> PostYourEntity(YourEntity yourEntity)
+        public async Task<ActionResult<YourEntityDTO>> PostYourEntity(YourEntityDTO yourEntityDTO)
         {
+            var yourEntity = new YourEntity
+            {
+                Name = yourEntityDTO.Name,
+                CreatedAt = DateTime.UtcNow,
+                ExpiredAt = yourEntityDTO.ExpiredAt
+            };
             _context.YourEntities.Add(yourEntity);
             await _context.SaveChangesAsync();
 

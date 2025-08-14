@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net Project\\StudentManager\\StudentManager\\StudentManager.csproj": {}
+    "D:\\.Net project\\StudentManagerNet\\StudentManager\\StudentManager.csproj": {}
   },
   "projects": {
-    "D:\\.Net Project\\StudentManager\\StudentManager\\StudentManager.csproj": {
+    "D:\\.Net project\\StudentManagerNet\\StudentManager\\StudentManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Project\\StudentManager\\StudentManager\\StudentManager.csproj",
+        "projectUniqueName": "D:\\.Net project\\StudentManagerNet\\StudentManager\\StudentManager.csproj",
         "projectName": "StudentManager",
-        "projectPath": "D:\\.Net Project\\StudentManager\\StudentManager\\StudentManager.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Project\\StudentManager\\StudentManager\\obj\\",
+        "projectPath": "D:\\.Net project\\StudentManagerNet\\StudentManager\\StudentManager.csproj",
+        "packagesPath": "C:\\Users\\TIENLE-LOCAL\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net project\\StudentManagerNet\\StudentManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TIENLE-LOCAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.19, )"
