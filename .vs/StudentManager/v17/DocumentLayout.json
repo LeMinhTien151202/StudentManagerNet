@@ -58,8 +58,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -83,8 +87,7 @@
               "RelativeToolTip": "StudentManager\\Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T15:08:11.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T15:08:11.02Z"
             },
             {
               "$type": "Document",
@@ -96,8 +99,7 @@
               "RelativeToolTip": "StudentManager\\Controllers\\RoleController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:54:43.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T14:54:43.344Z"
             },
             {
               "$type": "Document",
@@ -109,8 +111,7 @@
               "RelativeToolTip": "StudentManager\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAoAAAAAAAAAAAAswBoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-14T14:50:49.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T14:50:49.119Z"
             },
             {
               "$type": "Document",
@@ -122,8 +123,7 @@
               "RelativeToolTip": "StudentManager\\Controllers\\UserController.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAmwHgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:45:08.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T14:45:08.365Z"
             },
             {
               "$type": "Document",
@@ -135,8 +135,7 @@
               "RelativeToolTip": "StudentManager\\Controllers\\SubjectController.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAIwEYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:43:30.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T14:43:30.424Z"
             },
             {
               "$type": "Document",
@@ -148,8 +147,7 @@
               "RelativeToolTip": "StudentManager\\Controllers\\ClassController.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAcwE0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:41:37.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T14:41:37.608Z"
             },
             {
               "$type": "Document",
@@ -161,8 +159,7 @@
               "RelativeToolTip": "StudentManager\\Controllers\\ParentController.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAIwDUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:35:15.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T14:35:15.52Z"
             },
             {
               "$type": "Document",
@@ -174,12 +171,7 @@
               "RelativeToolTip": "StudentManager\\Controllers\\GradeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:32:47.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-08-14T14:32:47.146Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "StudentManager\\Program.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T16:27:50.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T16:27:50.121Z"
             },
             {
               "$type": "Document",

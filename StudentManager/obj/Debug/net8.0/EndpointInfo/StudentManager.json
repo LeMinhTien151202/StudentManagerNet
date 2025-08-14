@@ -1463,7 +1463,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "name": {
+          "roleName": {
             "type": "string",
             "nullable": true
           }
