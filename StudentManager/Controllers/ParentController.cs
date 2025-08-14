@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StudentManager.Dtos;
 using StudentManager.Repositories;
@@ -34,6 +35,7 @@ namespace StudentManager.Controllers
         }
         // POST: api/Parent
         [HttpPost]
+        [Authorize(Roles = "teacher")]
         public async Task<ActionResult<ParentDTO>> CreateParent(ParentDTO parentDto)
         {
             try
@@ -49,6 +51,7 @@ namespace StudentManager.Controllers
         }
         // PUT: api/Parent/5
         [HttpPut("{id}")]
+        [Authorize(Roles = "teacher")]
         public async Task<IActionResult> UpdateParent(int id, ParentDTO parentDto)
         {
             if (id <= 0 || parentDto == null)
@@ -68,6 +71,7 @@ namespace StudentManager.Controllers
         }
         // DELETE: api/Parent/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "teacher")]
         public async Task<IActionResult> DeleteParent(int id)
         {
             if (id <= 0)

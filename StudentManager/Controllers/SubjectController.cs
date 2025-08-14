@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StudentManager.Dtos;
 using StudentManager.Repositories;
@@ -34,6 +35,7 @@ namespace StudentManager.Controllers
         }
         // POST: api/Subject
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<SubjectDTO>> CreateSubject(SubjectDTO subjectDto)
         {
             try
@@ -49,6 +51,7 @@ namespace StudentManager.Controllers
         }
         // PUT: api/Subject/5
         [HttpPut("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> UpdateSubject(int id, SubjectDTO subjectDto)
         {
             if (id <= 0 || subjectDto == null)
@@ -72,6 +75,7 @@ namespace StudentManager.Controllers
         }
         // DELETE: api/Subject/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteSubject(int id)
         {
             if (id <= 0)

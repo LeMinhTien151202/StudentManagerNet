@@ -5,7 +5,7 @@ using StudentManager.Repositories;
 
 namespace StudentManager.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/roles")]
     [ApiController]
     public class RoleController : ControllerBase
     {

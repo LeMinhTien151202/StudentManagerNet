@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StudentManager.Dtos;
 using StudentManager.Repositories;
@@ -37,6 +38,7 @@ namespace StudentManager.Controllers
     
             // POST: api/Grade
             [HttpPost]
+            [Authorize(Roles = "teacher")]    
             public async Task<ActionResult<GradeDTO>> CreateGrade(GradeDTO gradeDto)
             {
                 try
@@ -52,6 +54,7 @@ namespace StudentManager.Controllers
     
             // PUT: api/Grade/5
             [HttpPut("{id}")]
+            [Authorize(Roles = "teacher")]
             public async Task<IActionResult> UpdateGrade(int id, GradeDTO gradeDto)
             {
                 if (id <= 0 || gradeDto == null)
@@ -75,13 +78,13 @@ namespace StudentManager.Controllers
     
             // DELETE: api/Grade/5
             [HttpDelete("{id}")]
+            [Authorize(Roles = "teacher")]
             public async Task<IActionResult> DeleteGrade(int id)
             {
                 if (id <= 0)
                 {
                     return BadRequest("Invalid ID provided.");
                 }
-                
                 try
                 {
                     var deleted = await _repository.DeleteAsync(id);

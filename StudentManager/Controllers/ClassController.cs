@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StudentManager.Dtos;
 using StudentManager.Models;
@@ -35,6 +36,7 @@ namespace StudentManager.Controllers
         }
         // POST: api/Class
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<ClassDTO>> CreateClass(ClassDTO classDto)
         {
             try
@@ -50,6 +52,7 @@ namespace StudentManager.Controllers
         }
         // PUT: api/Class/5
         [HttpPut("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> UpdateClass(int id, ClassDTO classDto)
         {
             if (id <= 0 || classDto == null)
@@ -73,6 +76,7 @@ namespace StudentManager.Controllers
         }
         // DELETE: api/Class/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteClass(int id)
         {
             if (id <= 0)
